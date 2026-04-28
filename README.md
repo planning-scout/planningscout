@@ -75,21 +75,21 @@ Definitiva)**
 
 ## Architecture
 10+ Official Sources
-↓
+
 Python Engine (daily cron via GitHub Actions)
-├── Source scrapers (BOCM, BOE, CM Contratos, BORME...)
-├── PDF text extraction
-├── GPT-4o-mini classification + sector field extraction
-├── Lead scoring (0–100, sector-weighted)
-└── Upsert to Google Sheets (phase tracking, dedup)
-↓
+- Source scrapers (BOCM, BOE, CM Contratos, BORME...)
+- PDF text extraction
+- GPT-4o-mini classification + sector field extraction
+- Lead scoring (0–100, sector-weighted)
+- Upsert to Google Sheets (phase tracking, dedup)
+
 Google Sheets (Leads tab — master data store)
-↓
+
 Streamlit Dashboard
-├── 10 sector profiles with tailored filters
-├── Interactive map (all projects geolocated)
-├── Mis Alertas (watchlist + phase-change email alerts)
-└── CSV export
+-  10 sector profiles with tailored filters
+-  Interactive map (all projects geolocated)
+-  Mis Alertas (watchlist + phase-change email alerts)
+-  CSV export
 
 ---
 
