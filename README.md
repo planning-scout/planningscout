@@ -73,7 +73,8 @@ Definitiva)**
 - **asyncio + ThreadPoolExecutor** — concurrent document processing
 - **GitHub Actions** — daily automated runs (cron schedule)
 
-  10+ Official Sources
+## Architecture
+10+ Official Sources
 ↓
 Python Engine (daily cron via GitHub Actions)
 ├── Source scrapers (BOCM, BOE, CM Contratos, BORME...)
@@ -130,7 +131,3 @@ The dashboard filters and re-scores leads per sector:
 
 *Built and maintained independently. Running in production since 
 January 2025.*
-
----
-
-## Architecture
